@@ -1,0 +1,38 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "docs/**",
+          "projects/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "projects/**"
+        ]
+      }
+    ],
+    "output": "docs",
+    "template": [
+      "default",
+      "modern",
+      "mff-template"
+    ],
+    "globalMetadata": {
+      "_appName": "MavFi Foundation",
+      "_appTitle": "MavFi Foundation",
+      "_appFaviconPath": "images/MavFiIcon.png",
+      "_appLogoPath": "images/MavFiLogo.png",
+      "_appFooter": "@ 2025 MavFi Foundation",
+      "_enableSearch": false,
+      "pdf": false
+    }
+  }
+}
