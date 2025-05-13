@@ -6,7 +6,8 @@
           "**/*.{md,yml}"
         ],
         "exclude": [
-          "docs/**"
+          "docs/**",
+          "projects/**"
         ]
       }
     ],
