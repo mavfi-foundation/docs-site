@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IMFFGeneratorTrigger | MavFi Foundation Source Generators </title>
+      <title>Interface IMFFGeneratorTrigger | Source Generators | MavFi Foundation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IMFFGeneratorTrigger | MavFi Foundation Source Generators ">
+      <meta name="title" content="Interface IMFFGeneratorTrigger | Source Generators | MavFi Foundation ">
       
-      
+      <meta name="description" content="Defines the interface to be used by all generator triggers.">
       <link rel="icon" href="../../../images/MavFiIcon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/mavfi-foundation/source-generators/new/main/apiSpec/new?filename=MavFiFoundation_SourceGenerators_GeneratorTriggers_IMFFGeneratorTrigger.md&amp;value=---%0Auid%3A%20MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -39,13 +39,13 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ApiPage">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="MavFi Foundation Source Generators">
-            MavFi Foundation Source Generators
+            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="Source Generators">
+            Source Generators
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -84,45 +84,103 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 class='section api' data-uid='MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger' data-commentid='T:MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger' id='MavFiFoundation_SourceGenerators_GeneratorTriggers_IMFFGeneratorTrigger'>Interface IMFFGeneratorTrigger    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/GeneratorTriggers/IMFFGeneratorTrigger.cs#L7'><i class='bi bi-code-slash'></i></a></h1>
- <div class="facts text-secondary">
-<dl><dt>Namespace</dt><dd><a href='MavFiFoundation.SourceGenerators.GeneratorTriggers.html'>MavFiFoundation.SourceGenerators.GeneratorTriggers</a></dd></dl><dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.dll</dd></dl>
-</div><pre><code class='lang-csharp'>public interface IMFFGeneratorTrigger : IMFFGeneratorPlugin</code></pre><h4 class='section'>Implements</h4><dl class="typelist"><dd>
-<div>
-<a href='MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin.html'>IMFFGeneratorPlugin</a>
+        <article data-uid="MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger">
+
+
+
+  <h1 id="MavFiFoundation_SourceGenerators_GeneratorTriggers_IMFFGeneratorTrigger" data-uid="MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger" class="text-break">
+Interface IMFFGeneratorTrigger  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/GeneratorTriggers/IMFFGeneratorTrigger.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MavFiFoundation.html">MavFiFoundation</a>.<a class="xref" href="MavFiFoundation.SourceGenerators.html">SourceGenerators</a>.<a class="xref" href="MavFiFoundation.SourceGenerators.GeneratorTriggers.html">GeneratorTriggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Defines the interface to be used by all generator triggers.</p>
 </div>
+  <div class="markdown conceptual"></div>
 
-</dd></dl><h2 class='section'>Methods</h2><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger.GetGeneratorInfosProvider(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext,Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources},Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFResourceRecord},System.Collections.Generic.IEnumerable{MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader})' data-commentid='M:MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger.GetGeneratorInfosProvider(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext,Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources},Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFResourceRecord},System.Collections.Generic.IEnumerable{MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader})' id='MavFiFoundation_SourceGenerators_GeneratorTriggers_IMFFGeneratorTrigger_GetGeneratorInfosProvider_Microsoft_CodeAnalysis_IncrementalGeneratorInitializationContext_Microsoft_CodeAnalysis_IncrementalValuesProvider_MavFiFoundation_SourceGenerators_Models_MFFTypeSymbolSources__Microsoft_CodeAnalysis_IncrementalValuesProvider_MavFiFoundation_SourceGenerators_Models_MFFResourceRecord__System_Collections_Generic_IEnumerable_MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader__'>GetGeneratorInfosProvider(IncrementalGeneratorInitializationContext, IncrementalValuesProvider&lt;MFFTypeSymbolSources&gt;, IncrementalValuesProvider&lt;MFFResourceRecord&gt;, IEnumerable&lt;IMFFResourceLoader&gt;)    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/GeneratorTriggers/IMFFGeneratorTrigger.cs#L9'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>IncrementalValuesProvider&lt;MFFGeneratorInfoRecord?&gt; GetGeneratorInfosProvider(IncrementalGeneratorInitializationContext genContext, IncrementalValuesProvider&lt;MFFTypeSymbolSources&gt; allTypes, IncrementalValuesProvider&lt;MFFResourceRecord&gt; allResources, IEnumerable&lt;IMFFResourceLoader&gt; resourceLoaders)</code></pre><h4 class='section'>Parameters</h4><dl class='parameters'><dt><code>genContext</code> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalgeneratorinitializationcontext'>IncrementalGeneratorInitializationContext</a>  </dt>
-<dd>
-
-
-
-</dd><dt><code>allTypes</code> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1'>IncrementalValuesProvider</a>&lt;MFFTypeSymbolSources&gt;  </dt>
-<dd>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMFFGeneratorTrigger : IMFFGeneratorPlugin</code></pre>
+  </div>
 
 
 
-</dd><dt><code>allResources</code> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1'>IncrementalValuesProvider</a>&lt;MFFResourceRecord&gt;  </dt>
-<dd>
 
 
 
-</dd><dt><code>resourceLoaders</code> <a href='https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1'>IEnumerable</a>&lt;<a href='MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.html'>IMFFResourceLoader</a>&gt;  </dt>
-<dd>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin.html#MavFiFoundation_SourceGenerators_IMFFGeneratorPlugin_Name">IMFFGeneratorPlugin.Name</a>
+    </div>
+  </dd></dl>
 
 
 
-</dd></dl><h4 class='section'>Returns</h4><dl class='parameters'><dt> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1'>IncrementalValuesProvider</a>&lt;MFFGeneratorInfoRecord?&gt;  </dt>
-<dd>
 
 
 
-</dd></dl>
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MavFiFoundation_SourceGenerators_GeneratorTriggers_IMFFGeneratorTrigger_GetGeneratorInfosProvider_" data-uid="MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger.GetGeneratorInfosProvider*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_GeneratorTriggers_IMFFGeneratorTrigger_GetGeneratorInfosProvider_Microsoft_CodeAnalysis_IncrementalGeneratorInitializationContext_Microsoft_CodeAnalysis_IncrementalValuesProvider_MavFiFoundation_SourceGenerators_Models_MFFTypeSymbolSources__Microsoft_CodeAnalysis_IncrementalValuesProvider_MavFiFoundation_SourceGenerators_Models_MFFResourceRecord__System_Collections_Generic_IEnumerable_MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader__" data-uid="MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger.GetGeneratorInfosProvider(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext,Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources},Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFResourceRecord},System.Collections.Generic.IEnumerable{MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader})">
+  GetGeneratorInfosProvider(IncrementalGeneratorInitializationContext, IncrementalValuesProvider&lt;MFFTypeSymbolSources&gt;, IncrementalValuesProvider&lt;MFFResourceRecord&gt;, IEnumerable&lt;IMFFResourceLoader&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/GeneratorTriggers/IMFFGeneratorTrigger.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1">IncrementalValuesProvider&lt;TValues&gt;</a> that locates and reads generator configuration information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IncrementalValuesProvider&lt;MFFGeneratorInfoRecord?&gt; GetGeneratorInfosProvider(IncrementalGeneratorInitializationContext genContext, IncrementalValuesProvider&lt;MFFTypeSymbolSources&gt; allTypes, IncrementalValuesProvider&lt;MFFResourceRecord&gt; allResources, IEnumerable&lt;IMFFResourceLoader&gt; resourceLoaders)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>genContext</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalgeneratorinitializationcontext">IncrementalGeneratorInitializationContext</a></dt>
+    <dd><p>Initialization context to use.</p>
+</dd>
+    <dt><code>allTypes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1">IncrementalValuesProvider</a>&lt;<a class="xref" href="MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources.html">MFFTypeSymbolSources</a>&gt;</dt>
+    <dd><p>All available types.</p>
+</dd>
+    <dt><code>allResources</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1">IncrementalValuesProvider</a>&lt;<a class="xref" href="MavFiFoundation.SourceGenerators.Models.MFFResourceRecord.html">MFFResourceRecord</a>&gt;</dt>
+    <dd><p>External resources used to load additional configuration information.</p>
+</dd>
+    <dt><code>resourceLoaders</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.html">IMFFResourceLoader</a>&gt;</dt>
+    <dd><p>Helper instances for loading additional configuration information from external sources.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1">IncrementalValuesProvider</a>&lt;<a class="xref" href="MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord.html">MFFGeneratorInfoRecord</a>&gt;</dt>
+    <dd><p>The created <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1">IncrementalValuesProvider&lt;TValues&gt;</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/GeneratorTriggers/IMFFGeneratorTrigger.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IMFFResourceLoader | MavFi Foundation Source Generators </title>
+      <title>Interface IMFFResourceLoader | Source Generators | MavFi Foundation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IMFFResourceLoader | MavFi Foundation Source Generators ">
+      <meta name="title" content="Interface IMFFResourceLoader | Source Generators | MavFi Foundation ">
       
       
       <link rel="icon" href="../../../images/MavFiIcon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/mavfi-foundation/source-generators/new/main/apiSpec/new?filename=MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader.md&amp;value=---%0Auid%3A%20MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -39,13 +39,13 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ApiPage">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="MavFi Foundation Source Generators">
-            MavFi Foundation Source Generators
+            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="Source Generators">
+            Source Generators
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -84,46 +84,129 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 class='section api' data-uid='MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader' data-commentid='T:MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader' id='MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader'>Interface IMFFResourceLoader    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/ResourceLoaders/IMFFResourceLoader.cs#L7'><i class='bi bi-code-slash'></i></a></h1>
- <div class="facts text-secondary">
-<dl><dt>Namespace</dt><dd><a href='MavFiFoundation.SourceGenerators.ResourceLoaders.html'>MavFiFoundation.SourceGenerators.ResourceLoaders</a></dd></dl><dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.dll</dd></dl>
-</div><pre><code class='lang-csharp'>public interface IMFFResourceLoader : IMFFGeneratorPlugin</code></pre><h4 class='section'>Implements</h4><dl class="typelist"><dd>
-<div>
-<a href='MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin.html'>IMFFGeneratorPlugin</a>
-</div>
-
-</dd></dl><h2 class='section'>Properties</h2><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.Prefix' data-commentid='P:MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.Prefix' id='MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader_Prefix'>Prefix    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/ResourceLoaders/IMFFResourceLoader.cs#L9'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>string Prefix { get; }</code></pre><h4 class='section'>Property Value</h4><dl class='parameters'><dt> <a href='https://learn.microsoft.com/dotnet/api/system.string'>string</a>  </dt>
-<dd>
+        <article data-uid="MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader">
 
 
 
-</dd></dl><h2 class='section'>Methods</h2><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.TryLoadResource(System.Object@,System.Collections.Immutable.ImmutableArray{MavFiFoundation.SourceGenerators.Models.MFFResourceRecord},System.Threading.CancellationToken)' data-commentid='M:MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.TryLoadResource(System.Object@,System.Collections.Immutable.ImmutableArray{MavFiFoundation.SourceGenerators.Models.MFFResourceRecord},System.Threading.CancellationToken)' id='MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader_TryLoadResource_System_Object__System_Collections_Immutable_ImmutableArray_MavFiFoundation_SourceGenerators_Models_MFFResourceRecord__System_Threading_CancellationToken_'>TryLoadResource(ref object?, ImmutableArray&lt;MFFResourceRecord&gt;, CancellationToken)    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/ResourceLoaders/IMFFResourceLoader.cs#L11'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>bool TryLoadResource(ref object? objResourceInfo, ImmutableArray&lt;MFFResourceRecord&gt; allResources, CancellationToken cancellationToken)</code></pre><h4 class='section'>Parameters</h4><dl class='parameters'><dt><code>objResourceInfo</code> <a href='https://learn.microsoft.com/dotnet/api/system.object'>object</a>?  </dt>
-<dd>
+  <h1 id="MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader" data-uid="MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader" class="text-break">
+Interface IMFFResourceLoader  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/ResourceLoaders/IMFFResourceLoader.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MavFiFoundation.html">MavFiFoundation</a>.<a class="xref" href="MavFiFoundation.SourceGenerators.html">SourceGenerators</a>.<a class="xref" href="MavFiFoundation.SourceGenerators.ResourceLoaders.html">ResourceLoaders</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMFFResourceLoader : IMFFGeneratorPlugin</code></pre>
+  </div>
 
 
 
-</dd><dt><code>allResources</code> <a href='https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1'>ImmutableArray</a>&lt;MFFResourceRecord&gt;  </dt>
-<dd>
 
 
 
-</dd><dt><code>cancellationToken</code> <a href='https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken'>CancellationToken</a>  </dt>
-<dd>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin.html#MavFiFoundation_SourceGenerators_IMFFGeneratorPlugin_Name">IMFFGeneratorPlugin.Name</a>
+    </div>
+  </dd></dl>
 
 
 
-</dd></dl><h4 class='section'>Returns</h4><dl class='parameters'><dt> <a href='https://learn.microsoft.com/dotnet/api/system.boolean'>bool</a>  </dt>
-<dd>
 
 
 
-</dd></dl>
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader_Prefix_" data-uid="MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.Prefix*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader_Prefix" data-uid="MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.Prefix">
+  Prefix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/ResourceLoaders/IMFFResourceLoader.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Prefix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader_TryLoadResource_" data-uid="MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.TryLoadResource*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_ResourceLoaders_IMFFResourceLoader_TryLoadResource_System_Object__System_Collections_Immutable_ImmutableArray_MavFiFoundation_SourceGenerators_Models_MFFResourceRecord__System_Threading_CancellationToken_" data-uid="MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.TryLoadResource(System.Object@,System.Collections.Immutable.ImmutableArray{MavFiFoundation.SourceGenerators.Models.MFFResourceRecord},System.Threading.CancellationToken)">
+  TryLoadResource(ref object?, ImmutableArray&lt;MFFResourceRecord&gt;, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/ResourceLoaders/IMFFResourceLoader.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryLoadResource(ref object? objResourceInfo, ImmutableArray&lt;MFFResourceRecord&gt; allResources, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objResourceInfo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>allResources</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1">ImmutableArray</a>&lt;<a class="xref" href="MavFiFoundation.SourceGenerators.Models.MFFResourceRecord.html">MFFResourceRecord</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/ResourceLoaders/IMFFResourceLoader.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

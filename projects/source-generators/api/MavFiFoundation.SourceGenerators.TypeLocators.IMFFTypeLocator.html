@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IMFFTypeLocator | MavFi Foundation Source Generators </title>
+      <title>Interface IMFFTypeLocator | Source Generators | MavFi Foundation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IMFFTypeLocator | MavFi Foundation Source Generators ">
+      <meta name="title" content="Interface IMFFTypeLocator | Source Generators | MavFi Foundation ">
       
       
       <link rel="icon" href="../../../images/MavFiIcon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/mavfi-foundation/source-generators/new/main/apiSpec/new?filename=MavFiFoundation_SourceGenerators_TypeLocators_IMFFTypeLocator.md&amp;value=---%0Auid%3A%20MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -39,13 +39,13 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ApiPage">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="MavFi Foundation Source Generators">
-            MavFi Foundation Source Generators
+            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="Source Generators">
+            Source Generators
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -84,40 +84,94 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 class='section api' data-uid='MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator' data-commentid='T:MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator' id='MavFiFoundation_SourceGenerators_TypeLocators_IMFFTypeLocator'>Interface IMFFTypeLocator    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/TypeLocators/IMFFTypeLocator.cs#L6'><i class='bi bi-code-slash'></i></a></h1>
- <div class="facts text-secondary">
-<dl><dt>Namespace</dt><dd><a href='MavFiFoundation.SourceGenerators.TypeLocators.html'>MavFiFoundation.SourceGenerators.TypeLocators</a></dd></dl><dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.dll</dd></dl>
-</div><pre><code class='lang-csharp'>public interface IMFFTypeLocator : IMFFGeneratorPlugin</code></pre><h4 class='section'>Implements</h4><dl class="typelist"><dd>
-<div>
-<a href='MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin.html'>IMFFGeneratorPlugin</a>
-</div>
-
-</dd></dl><h2 class='section'>Methods</h2><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator.GetTypeSymbolsProvider(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext,Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord},Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources})' data-commentid='M:MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator.GetTypeSymbolsProvider(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext,Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord},Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources})' id='MavFiFoundation_SourceGenerators_TypeLocators_IMFFTypeLocator_GetTypeSymbolsProvider_Microsoft_CodeAnalysis_IncrementalGeneratorInitializationContext_Microsoft_CodeAnalysis_IncrementalValuesProvider_MavFiFoundation_SourceGenerators_Models_MFFGeneratorInfoRecord__Microsoft_CodeAnalysis_IncrementalValuesProvider_MavFiFoundation_SourceGenerators_Models_MFFTypeSymbolSources__'>GetTypeSymbolsProvider(IncrementalGeneratorInitializationContext, IncrementalValuesProvider&lt;MFFGeneratorInfoRecord?&gt;, IncrementalValuesProvider&lt;MFFTypeSymbolSources&gt;)    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/TypeLocators/IMFFTypeLocator.cs#L8'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>IncrementalValuesProvider&lt;MFFGeneratorInfoWithSrcTypesRecord?&gt; GetTypeSymbolsProvider(IncrementalGeneratorInitializationContext genContext, IncrementalValuesProvider&lt;MFFGeneratorInfoRecord?&gt; genInfos, IncrementalValuesProvider&lt;MFFTypeSymbolSources&gt; allTypes)</code></pre><h4 class='section'>Parameters</h4><dl class='parameters'><dt><code>genContext</code> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalgeneratorinitializationcontext'>IncrementalGeneratorInitializationContext</a>  </dt>
-<dd>
+        <article data-uid="MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator">
 
 
 
-</dd><dt><code>genInfos</code> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1'>IncrementalValuesProvider</a>&lt;MFFGeneratorInfoRecord?&gt;  </dt>
-<dd>
+  <h1 id="MavFiFoundation_SourceGenerators_TypeLocators_IMFFTypeLocator" data-uid="MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator" class="text-break">
+Interface IMFFTypeLocator  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/TypeLocators/IMFFTypeLocator.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MavFiFoundation.html">MavFiFoundation</a>.<a class="xref" href="MavFiFoundation.SourceGenerators.html">SourceGenerators</a>.<a class="xref" href="MavFiFoundation.SourceGenerators.TypeLocators.html">TypeLocators</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMFFTypeLocator : IMFFGeneratorPlugin</code></pre>
+  </div>
 
 
 
-</dd><dt><code>allTypes</code> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1'>IncrementalValuesProvider</a>&lt;MFFTypeSymbolSources&gt;  </dt>
-<dd>
 
 
 
-</dd></dl><h4 class='section'>Returns</h4><dl class='parameters'><dt> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1'>IncrementalValuesProvider</a>&lt;MFFGeneratorInfoWithSrcTypesRecord?&gt;  </dt>
-<dd>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin.html#MavFiFoundation_SourceGenerators_IMFFGeneratorPlugin_Name">IMFFGeneratorPlugin.Name</a>
+    </div>
+  </dd></dl>
 
 
 
-</dd></dl>
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MavFiFoundation_SourceGenerators_TypeLocators_IMFFTypeLocator_GetTypeSymbolsProvider_" data-uid="MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator.GetTypeSymbolsProvider*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_TypeLocators_IMFFTypeLocator_GetTypeSymbolsProvider_Microsoft_CodeAnalysis_IncrementalGeneratorInitializationContext_Microsoft_CodeAnalysis_IncrementalValuesProvider_MavFiFoundation_SourceGenerators_Models_MFFGeneratorInfoRecord__Microsoft_CodeAnalysis_IncrementalValuesProvider_MavFiFoundation_SourceGenerators_Models_MFFTypeSymbolSources__" data-uid="MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator.GetTypeSymbolsProvider(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext,Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord},Microsoft.CodeAnalysis.IncrementalValuesProvider{MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources})">
+  GetTypeSymbolsProvider(IncrementalGeneratorInitializationContext, IncrementalValuesProvider&lt;MFFGeneratorInfoRecord?&gt;, IncrementalValuesProvider&lt;MFFTypeSymbolSources&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/TypeLocators/IMFFTypeLocator.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IncrementalValuesProvider&lt;MFFGeneratorInfoWithSrcTypesRecord?&gt; GetTypeSymbolsProvider(IncrementalGeneratorInitializationContext genContext, IncrementalValuesProvider&lt;MFFGeneratorInfoRecord?&gt; genInfos, IncrementalValuesProvider&lt;MFFTypeSymbolSources&gt; allTypes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>genContext</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalgeneratorinitializationcontext">IncrementalGeneratorInitializationContext</a></dt>
+    <dd></dd>
+    <dt><code>genInfos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1">IncrementalValuesProvider</a>&lt;<a class="xref" href="MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord.html">MFFGeneratorInfoRecord</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>allTypes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1">IncrementalValuesProvider</a>&lt;<a class="xref" href="MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources.html">MFFTypeSymbolSources</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalvaluesprovider-1">IncrementalValuesProvider</a>&lt;<a class="xref" href="MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoWithSrcTypesRecord.html">MFFGeneratorInfoWithSrcTypesRecord</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/TypeLocators/IMFFTypeLocator.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

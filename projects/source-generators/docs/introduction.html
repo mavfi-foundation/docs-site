@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Introduction | MavFi Foundation Source Generators </title>
+      <title>Introduction | Source Generators | MavFi Foundation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Introduction | MavFi Foundation Source Generators ">
+      <meta name="title" content="Introduction | Source Generators | MavFi Foundation ">
       
       
-      <link rel="icon" href="../favicon.ico">
+      <link rel="icon" href="../../../images/MavFiIcon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/mavfi-foundation/source-generators/blob/users/kevinhaubrick/add-documentation/docs/docs/introduction.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/mavfi-foundation/source-generators/blob/main/docs/docs/introduction.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="MavFi Foundation Source Generators">
-            MavFi Foundation Source Generators
+            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="Source Generators">
+            Source Generators
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -87,11 +87,101 @@
         <article data-uid="">
 <h1 id="introduction">Introduction</h1>
 
+<h2 id="overview">Overview</h2>
+<blockquote>
+<h1 id="mavfifoundationsourcegenerators">MavFiFoundation.SourceGenerators</h1>
+<p>An extendable source generator that builds on <a href="https://github.com/dotnet/roslyn/blob/main/docs/wiki/Roslyn-Overview.md">Roslyn's</a> support for <a href="https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md">incremental generators</a>.</p>
+<h2 id="basic-functionality">Basic functionality</h2>
+<p>Source generation can be triggered by specifying configuration information using:</p>
+<ul>
+<li>Type Attributes</li>
+<li>Yaml Files</li>
+<li>Json Files</li>
+<li>XML Files</li>
+</ul>
+<p>The following template languages can be used to specify generated source code:</p>
+<ul>
+<li><a href="https://github.com/scriban/scriban/blob/master/doc/language.md">Scriban</a></li>
+<li><a href="https://shopify.github.io/liquid/">Liquid</a> (via Scriban's <a href="https://github.com/scriban/scriban/blob/master/doc/liquid-support.md">Liquid support</a>)</li>
+</ul>
+<h2 id="basic-usage">Basic usage</h2>
+<p>Adding the following trigger file would generate an EF Core <code>DbContext</code> for all classes in the project that include an attribute named <code>DbEntity</code>.</p>
+<h3 id="trigger-file-examplecontextcodegenyml">Trigger file (<code>ExampleContext.CodeGen.yml</code>)</h3>
+<pre><code class="lang-yaml">srcLocatorType: MFFAttributeTypeLocator
+srcLocatorInfo: Example.Data.DbEntityAttribute
+genOutputInfos:
+  - fileNameBuilderInfo: 'ExampleDbContext.g.cs'
+    sourceBuilderType: MFFScribanBuilder
+    sourceBuilderInfo: |-
+      #nullable enable
+
+      using Microsoft.EntityFrameworkCore;
+
+      namespace Example.Data
+
+      public partial class ExampleContext : DbContext
+      {
+        public ExampleContext(DbContextOptions&lt;ExampleContext&gt; options) : base(options)
+        {
+        }
+
+      {{- for srcType in srcTypes }}
+        public DbSet&lt;{{ srcType.Name }}&gt; {{ srcType.Name }}s { get; set; }
+
+      {{- end }}
+      }
+
+</code></pre>
+<h3 id="generated-file-exampledbcontextgcs">Generated file (<code>ExampleDbContext.g.cs</code>)</h3>
+<pre><code class="lang-cs">#nullable enable
+
+using Microsoft.EntityFrameworkCore;
+
+namespace Example.Data
+
+public partial class ExampleContext : DbContext
+{
+    public ExampleContext(DbContextOptions&lt;ExampleContext&gt; options) : base(options)
+    {
+
+    }
+
+    public DbSet&lt;Example&gt; Examples { get; set; }
+
+    public DbSet&lt;AdditionalExample&gt; AdditionalExamples { get; set; }
+
+}
+
+</code></pre>
+</blockquote>
+<h2 id="main-source-generator-components">Main Source Generator Components</h2>
+<p>Source generation involves three main components: <a href="#generator-triggers">Generator Triggers</a>, <a href="#type-locators">Type Locators</a>, and <a href="#builders">Builders</a>. Source generation begins with and is configured using generator triggers. Once source generation has been triggered by a generator trigger, control is passed to type locators that are used to locate the types that will be passed to builders. The builders will then create the source code.</p>
+<h3 id="generator-triggers">Generator Triggers</h3>
+<p>Generator triggers are the starting point for source generation and are where the configuration is defined for code to be generated. Regardless of the specific generator trigger that is used, the supplied configuration information is used to create a <a href="../api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoModel.html">MFFGeneratorInfoModel</a>. How this information is specified in depending on the specific generator trigger that is being used. The following generator triggers are included:</p>
+<ul>
+<li><a href="generator-triggers/attribute-generator-trigger.html">MFFAttributeGeneratorTrigger</a> - Use an attribute on a type to trigger source generation.</li>
+<li><a href="generator-triggers/yaml-generator-trigger.html">MFFYamlGeneratorTrigger</a> - Use a yaml file with a CodeGen.yml or CodeGen.yaml extension to trigger source generation.</li>
+<li><a href="generator-triggers/json-generator-trigger.html">MFFJsonGeneratorTrigger</a>- Use a json file with a CodeGen.json extension to trigger source generation.</li>
+<li><a href="generator-triggers/xml-generator-trigger.html">MFFXmlGeneratorTrigger</a>- Use a xml file with a CodeGen.xml extension to trigger source generation.</li>
+</ul>
+<h3 id="type-locators">Type Locators</h3>
+<p>Type locators are used to locate the types that will be used to generate source from. The located types are passed to a builder that can use the various parts of existing types to create source code for new types. The type locator to use is specified in the <a href="../api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoModel.html#MavFiFoundation_SourceGenerators_Models_MFFGeneratorInfoModel_SrcLocatorType">MFFGeneratorInfoModel.SrcLocatorType</a> property. The configuration information used by the type locator is specified in the <a href="../api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoModel.html#MavFiFoundation_SourceGenerators_Models_MFFGeneratorInfoModel_SrcLocatorInfo">MFFGeneratorInfoModel.SrcLocatorInfo</a> property and varies depending on the specific type locator being used. The following type locators are included:</p>
+<ul>
+<li><a href="type-locators/attribute-type-locator.html">MFFAttributeTypeLocator</a> - Use an attribute on a type to locate types.</li>
+<li><a href="type-locators/dynamic-linq-type-locator.html">MFFDynamicLinqTypeLocator</a> - Use a <a href="https://dynamic-linq.net/overview">Dynamic LINQ</a> query to locate types.</li>
+<li><a href="type-locators/included-type-locator.html">MFFIncludedTypeLocator</a>- Use the type that was used by the generator trigger.</li>
+</ul>
+<h3 id="builders">Builders</h3>
+<p>Builder are used to generate the source. Builders are also used for generating the filename for the generated source. Configuration information for builders is supplied using <a href="../api/MavFiFoundation.SourceGenerators.Models.MFFBuilderModel.html">MFFBuilderModel</a>. The builder to use for source generation is specified in the <a href="../api/MavFiFoundation.SourceGenerators.Models.MFFBuilderModel.html#MavFiFoundation_SourceGenerators_Models_MFFBuilderModel_SourceBuilderType">MFFBuilderModel.SourceBuilderType</a> property. The builder to use for filename generation is specified in the <a href="../api/MavFiFoundation.SourceGenerators.Models.MFFBuilderModel.html#MavFiFoundation_SourceGenerators_Models_MFFBuilderModel_FileNameBuilderType">MFFBuilderModel.FileNameBuilderType</a> property. The following builders are included:</p>
+<ul>
+<li><a href="builders/scriban-builder.html">MFFScribanBuilder</a> - Use a <a href="https://github.com/scriban/scriban/blob/master/doc/language.md">Scriban</a> template to build source.</li>
+<li><a href="builders/liquid-builder.html">MFFLiquidBuilder</a> - Use a <a href="https://shopify.github.io/liquid/">Liquid</a> template to build source.</li>
+</ul>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/mavfi-foundation/source-generators/blob/users/kevinhaubrick/add-documentation/docs/docs/introduction.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/mavfi-foundation/source-generators/blob/main/docs/docs/introduction.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
@@ -108,7 +198,7 @@
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+          @ 2025 MavFi Foundation
         </div>
       </div>
     </footer>
