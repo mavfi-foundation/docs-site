@@ -64,6 +64,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "projects/source-generators/api/MFFSourceGenerators-API.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/api/MFFSourceGenerators-API.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "projects/source-generators/api/MavFiFoundation.SourceGenerators.Builders.IMFFBuilder.html",
       "output": {
         "resource": {
@@ -964,6 +974,116 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/MFFSourceGenerators-Docs.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/MFFSourceGenerators-Docs.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/builders/liquid-builder.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/builders/liquid-builder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/builders/scriban-builder.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/builders/scriban-builder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/builders/toc.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/builders/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/builders/toc.json",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/builders/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/generator-triggers/attribute-generator-trigger.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/generator-triggers/attribute-generator-trigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/generator-triggers/json-generator-trigger.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/generator-triggers/json-generator-trigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/generator-triggers/toc.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/generator-triggers/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/generator-triggers/toc.json",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/generator-triggers/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/generator-triggers/xml-generator-trigger.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/generator-triggers/xml-generator-trigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/generator-triggers/yaml-generator-trigger.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/generator-triggers/yaml-generator-trigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "projects/source-generators/docs/getting-started.html",
       "output": {
         "resource": {
@@ -1044,6 +1164,66 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.Extras/README.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.Extras/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.MFFSourceGenerator/README.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.MFFSourceGenerator/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.Shared/README.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.Shared/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.Testing.XUnit/README.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.Testing.XUnit/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.Testing/README.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators.Testing/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators/README.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/packages/MavFiFoundation.SourceGenerators/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "projects/source-generators/docs/toc.html",
       "output": {
         "resource": {
@@ -1058,6 +1238,56 @@
       "output": {
         "resource": {
           "relative_path": "projects/source-generators/docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/type-locators/attribute-type-locator.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/type-locators/attribute-type-locator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/type-locators/dynamic-linq-type-locator.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/type-locators/dynamic-linq-type-locator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/type-locators/included-type-locator.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/type-locators/included-type-locator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/type-locators/toc.html",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/type-locators/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/source-generators/docs/type-locators/toc.json",
+      "output": {
+        "resource": {
+          "relative_path": "projects/source-generators/docs/type-locators/toc.json"
         }
       },
       "version": ""

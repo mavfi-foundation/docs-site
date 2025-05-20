@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class MFFGeneratorBase | MavFi Foundation Source Generators </title>
+      <title>Class MFFGeneratorBase | Source Generators | MavFi Foundation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class MFFGeneratorBase | MavFi Foundation Source Generators ">
+      <meta name="title" content="Class MFFGeneratorBase | Source Generators | MavFi Foundation ">
       
       
       <link rel="icon" href="../../../images/MavFiIcon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/mavfi-foundation/source-generators/new/main/apiSpec/new?filename=MavFiFoundation_SourceGenerators_MFFGeneratorBase.md&amp;value=---%0Auid%3A%20MavFiFoundation.SourceGenerators.MFFGeneratorBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -39,13 +39,13 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ApiPage">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="MavFi Foundation Source Generators">
-            MavFi Foundation Source Generators
+            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="Source Generators">
+            Source Generators
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -84,97 +84,260 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 class='section api' data-uid='MavFiFoundation.SourceGenerators.MFFGeneratorBase' data-commentid='T:MavFiFoundation.SourceGenerators.MFFGeneratorBase' id='MavFiFoundation_SourceGenerators_MFFGeneratorBase'>Class MFFGeneratorBase    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs#L10'><i class='bi bi-code-slash'></i></a></h1>
- <div class="facts text-secondary">
-<dl><dt>Namespace</dt><dd><a href='MavFiFoundation.SourceGenerators.html'>MavFiFoundation.SourceGenerators</a></dd></dl><dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.dll</dd></dl>
-</div><pre><code class='lang-csharp'>public abstract class MFFGeneratorBase : IIncrementalGenerator</code></pre><h4 class='section'>Inheritance</h4><dl class="typelist inheritance"><dd>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object'>object</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.MFFGeneratorBase.html'>MFFGeneratorBase</a>
-</div>
-
-</dd></dl><h4 class='section'>Derived</h4><dl class="typelist"><dd>
-<div>
-<a href='MavFiFoundation.SourceGenerators.MFFGenerator.html'>MFFGenerator</a>
-</div>
-
-</dd></dl><h4 class='section'>Implements</h4><dl class="typelist"><dd>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.iincrementalgenerator'>IIncrementalGenerator</a>
-</div>
-
-</dd></dl><h4 class='section'>Inherited Members</h4><dl class="typelist"><dd>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)'>object.Equals(object)</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)'>object.Equals(object, object)</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.gethashcode'>object.GetHashCode()</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.gettype'>object.GetType()</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone'>object.MemberwiseClone()</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.referenceequals'>object.ReferenceEquals(object, object)</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.tostring'>object.ToString()</a>
-</div>
-
-</dd></dl><h2 class='section'>Constructors</h2><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.MFFGeneratorBase.#ctor(MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider,MavFiFoundation.SourceGenerators.IMFFGeneratorHelper)' data-commentid='M:MavFiFoundation.SourceGenerators.MFFGeneratorBase.#ctor(MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider,MavFiFoundation.SourceGenerators.IMFFGeneratorHelper)' id='MavFiFoundation_SourceGenerators_MFFGeneratorBase__ctor_MavFiFoundation_SourceGenerators_IMFFGeneratorPluginsProvider_MavFiFoundation_SourceGenerators_IMFFGeneratorHelper_'>MFFGeneratorBase(IMFFGeneratorPluginsProvider, IMFFGeneratorHelper)    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs#L21'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>public MFFGeneratorBase(IMFFGeneratorPluginsProvider pluginsProvider, IMFFGeneratorHelper generatorHelper)</code></pre><h4 class='section'>Parameters</h4><dl class='parameters'><dt><code>pluginsProvider</code> <a href='MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider.html'>IMFFGeneratorPluginsProvider</a>  </dt>
-<dd>
+        <article data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase">
 
 
 
-</dd><dt><code>generatorHelper</code> <a href='MavFiFoundation.SourceGenerators.IMFFGeneratorHelper.html'>IMFFGeneratorHelper</a>  </dt>
-<dd>
+  <h1 id="MavFiFoundation_SourceGenerators_MFFGeneratorBase" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase" class="text-break">
+Class MFFGeneratorBase  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MavFiFoundation.html">MavFiFoundation</a>.<a class="xref" href="MavFiFoundation.SourceGenerators.html">SourceGenerators</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class MFFGeneratorBase : IIncrementalGenerator</code></pre>
+  </div>
 
 
 
-</dd></dl><h2 class='section'>Properties</h2><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.MFFGeneratorBase.GeneratorHelper' data-commentid='P:MavFiFoundation.SourceGenerators.MFFGeneratorBase.GeneratorHelper' id='MavFiFoundation_SourceGenerators_MFFGeneratorBase_GeneratorHelper'>GeneratorHelper    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs#L16'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>protected IMFFGeneratorHelper GeneratorHelper { get; }</code></pre><h4 class='section'>Property Value</h4><dl class='parameters'><dt> <a href='MavFiFoundation.SourceGenerators.IMFFGeneratorHelper.html'>IMFFGeneratorHelper</a>  </dt>
-<dd>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MFFGeneratorBase</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.iincrementalgenerator">IIncrementalGenerator</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="MavFiFoundation.SourceGenerators.MFFGenerator.html">MFFGenerator</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
 
 
 
-</dd></dl><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.MFFGeneratorBase.PluginsProvider' data-commentid='P:MavFiFoundation.SourceGenerators.MFFGeneratorBase.PluginsProvider' id='MavFiFoundation_SourceGenerators_MFFGeneratorBase_PluginsProvider'>PluginsProvider    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs#L15'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>protected IMFFGeneratorPluginsProvider PluginsProvider { get; }</code></pre><h4 class='section'>Property Value</h4><dl class='parameters'><dt> <a href='MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider.html'>IMFFGeneratorPluginsProvider</a>  </dt>
-<dd>
 
 
 
-</dd></dl><h2 class='section'>Methods</h2><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.MFFGeneratorBase.CreateOutput(System.Collections.Immutable.ImmutableArray{MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoWithSrcTypesRecord},Microsoft.CodeAnalysis.SourceProductionContext)' data-commentid='M:MavFiFoundation.SourceGenerators.MFFGeneratorBase.CreateOutput(System.Collections.Immutable.ImmutableArray{MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoWithSrcTypesRecord},Microsoft.CodeAnalysis.SourceProductionContext)' id='MavFiFoundation_SourceGenerators_MFFGeneratorBase_CreateOutput_System_Collections_Immutable_ImmutableArray_MavFiFoundation_SourceGenerators_Models_MFFGeneratorInfoWithSrcTypesRecord__Microsoft_CodeAnalysis_SourceProductionContext_'>CreateOutput(ImmutableArray&lt;MFFGeneratorInfoWithSrcTypesRecord?&gt;, SourceProductionContext)    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs#L91'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>protected void CreateOutput(ImmutableArray&lt;MFFGeneratorInfoWithSrcTypesRecord?&gt; genAndSrcInfos, SourceProductionContext context)</code></pre><h4 class='section'>Parameters</h4><dl class='parameters'><dt><code>genAndSrcInfos</code> <a href='https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1'>ImmutableArray</a>&lt;MFFGeneratorInfoWithSrcTypesRecord?&gt;  </dt>
-<dd>
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="MavFiFoundation_SourceGenerators_MFFGeneratorBase__ctor_" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.#ctor*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_MFFGeneratorBase__ctor_MavFiFoundation_SourceGenerators_IMFFGeneratorPluginsProvider_MavFiFoundation_SourceGenerators_IMFFGeneratorHelper_" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.#ctor(MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider,MavFiFoundation.SourceGenerators.IMFFGeneratorHelper)">
+  MFFGeneratorBase(IMFFGeneratorPluginsProvider, IMFFGeneratorHelper)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MFFGeneratorBase(IMFFGeneratorPluginsProvider pluginsProvider, IMFFGeneratorHelper generatorHelper)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pluginsProvider</code> <a class="xref" href="MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider.html">IMFFGeneratorPluginsProvider</a></dt>
+    <dd></dd>
+    <dt><code>generatorHelper</code> <a class="xref" href="MavFiFoundation.SourceGenerators.IMFFGeneratorHelper.html">IMFFGeneratorHelper</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
-</dd><dt><code>context</code> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.sourceproductioncontext'>SourceProductionContext</a>  </dt>
-<dd>
 
 
 
-</dd></dl><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.MFFGeneratorBase.Initialize(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext)' data-commentid='M:MavFiFoundation.SourceGenerators.MFFGeneratorBase.Initialize(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext)' id='MavFiFoundation_SourceGenerators_MFFGeneratorBase_Initialize_Microsoft_CodeAnalysis_IncrementalGeneratorInitializationContext_'>Initialize(IncrementalGeneratorInitializationContext)    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs#L32'><i class='bi bi-code-slash'></i></a></h3>
- <p>Called to initialize the generator and register generation steps via callbacks
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="MavFiFoundation_SourceGenerators_MFFGeneratorBase_GeneratorHelper_" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.GeneratorHelper*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_MFFGeneratorBase_GeneratorHelper" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.GeneratorHelper">
+  GeneratorHelper
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IMFFGeneratorHelper GeneratorHelper { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MavFiFoundation.SourceGenerators.IMFFGeneratorHelper.html">IMFFGeneratorHelper</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MavFiFoundation_SourceGenerators_MFFGeneratorBase_PluginsProvider_" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.PluginsProvider*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_MFFGeneratorBase_PluginsProvider" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.PluginsProvider">
+  PluginsProvider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IMFFGeneratorPluginsProvider PluginsProvider { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider.html">IMFFGeneratorPluginsProvider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MavFiFoundation_SourceGenerators_MFFGeneratorBase_CreateOutput_" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.CreateOutput*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_MFFGeneratorBase_CreateOutput_System_Collections_Immutable_ImmutableArray_MavFiFoundation_SourceGenerators_Models_MFFGeneratorInfoWithSrcTypesRecord__Microsoft_CodeAnalysis_SourceProductionContext_" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.CreateOutput(System.Collections.Immutable.ImmutableArray{MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoWithSrcTypesRecord},Microsoft.CodeAnalysis.SourceProductionContext)">
+  CreateOutput(ImmutableArray&lt;MFFGeneratorInfoWithSrcTypesRecord?&gt;, SourceProductionContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CreateOutput(ImmutableArray&lt;MFFGeneratorInfoWithSrcTypesRecord?&gt; genAndSrcInfos, SourceProductionContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>genAndSrcInfos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1">ImmutableArray</a>&lt;<a class="xref" href="MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoWithSrcTypesRecord.html">MFFGeneratorInfoWithSrcTypesRecord</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.sourceproductioncontext">SourceProductionContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MavFiFoundation_SourceGenerators_MFFGeneratorBase_Initialize_" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.Initialize*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_MFFGeneratorBase_Initialize_Microsoft_CodeAnalysis_IncrementalGeneratorInitializationContext_" data-uid="MavFiFoundation.SourceGenerators.MFFGeneratorBase.Initialize(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext)">
+  Initialize(IncrementalGeneratorInitializationContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called to initialize the generator and register generation steps via callbacks
 on the <code class="paramref">context</code></p>
-<pre><code class='lang-csharp'>public void Initialize(IncrementalGeneratorInitializationContext initContext)</code></pre><h4 class='section'>Parameters</h4><dl class='parameters'><dt><code>initContext</code> <a href='https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalgeneratorinitializationcontext'>IncrementalGeneratorInitializationContext</a>  </dt>
-<dd>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(IncrementalGeneratorInitializationContext initContext)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initContext</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.incrementalgeneratorinitializationcontext">IncrementalGeneratorInitializationContext</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
-</dd></dl>
+
+
+
+
+
+
+
+
+
+
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators/MFFGeneratorBase.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

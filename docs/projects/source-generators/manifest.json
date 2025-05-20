@@ -15,7 +15,7 @@
       "source_relative_path": "../src/MavFiFoundation.SourceGenerators.Extras/README.md",
       "output": {
         ".html": {
-          "relative_path": "docs/modules/MavFiFoundation.SourceGenerators.Extras/README.html"
+          "relative_path": "docs/packages/MavFiFoundation.SourceGenerators.Extras/README.html"
         }
       },
       "version": ""
@@ -25,7 +25,7 @@
       "source_relative_path": "../src/MavFiFoundation.SourceGenerators.MFFSourceGenerator/README.md",
       "output": {
         ".html": {
-          "relative_path": "docs/modules/MavFiFoundation.SourceGenerators.MFFSourceGenerator/README.html"
+          "relative_path": "docs/packages/MavFiFoundation.SourceGenerators.MFFSourceGenerator/README.html"
         }
       },
       "version": ""
@@ -35,7 +35,7 @@
       "source_relative_path": "../src/MavFiFoundation.SourceGenerators.Shared/README.md",
       "output": {
         ".html": {
-          "relative_path": "docs/modules/MavFiFoundation.SourceGenerators.Shared/README.html"
+          "relative_path": "docs/packages/MavFiFoundation.SourceGenerators.Shared/README.html"
         }
       },
       "version": ""
@@ -45,7 +45,7 @@
       "source_relative_path": "../src/MavFiFoundation.SourceGenerators.Testing.XUnit/README.md",
       "output": {
         ".html": {
-          "relative_path": "docs/modules/MavFiFoundation.SourceGenerators.Testing.XUnit/README.html"
+          "relative_path": "docs/packages/MavFiFoundation.SourceGenerators.Testing.XUnit/README.html"
         }
       },
       "version": ""
@@ -55,7 +55,7 @@
       "source_relative_path": "../src/MavFiFoundation.SourceGenerators.Testing/README.md",
       "output": {
         ".html": {
-          "relative_path": "docs/modules/MavFiFoundation.SourceGenerators.Testing/README.html"
+          "relative_path": "docs/packages/MavFiFoundation.SourceGenerators.Testing/README.html"
         }
       },
       "version": ""
@@ -65,890 +65,1242 @@
       "source_relative_path": "../src/MavFiFoundation.SourceGenerators/README.md",
       "output": {
         ".html": {
-          "relative_path": "docs/modules/MavFiFoundation.SourceGenerators/README.html"
+          "relative_path": "docs/packages/MavFiFoundation.SourceGenerators/README.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Builders.IMFFBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Builders.IMFFBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Builders.IMFFBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Builders.MFFLiquidBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Builders.MFFLiquidBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Builders.MFFLiquidBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Builders.MFFScribanBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Builders.MFFScribanBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Builders.MFFScribanBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Builders.MFFScribanBuilderBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Builders.MFFScribanBuilderBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Builders.MFFScribanBuilderBase",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Builders.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Builders.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Builders",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.CreateGeneratorConstants.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.CreateGeneratorConstants.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.CreateGeneratorConstants",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.EquatableArray-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.EquatableArray-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.EquatableArray<T>",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.EquatableArray-1.yml\" sourcestartlinenumber=\"1\">An immutable, equatable array. This is equivalent to <xref href=\"System.Collections.Immutable.ImmutableArray%601\" data-throw-if-not-resolved=\"false\"></xref> but with value equality support.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.EquatableArray.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.EquatableArray.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.EquatableArray",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.EquatableArray.yml\" sourcestartlinenumber=\"1\">Extensions for <xref href=\"MavFiFoundation.SourceGenerators.EquatableArray%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger.yml\" sourcestartlinenumber=\"1\">Defines the interface to be used by all generator triggers.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFAttributeGeneratorTrigger.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFAttributeGeneratorTrigger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFAttributeGeneratorTrigger",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFAttributeGeneratorTrigger.yml\" sourcestartlinenumber=\"1\">Used to trigger code generation based on an attribute included on a type. By default,\n<xref href=\"MavFiFoundation.SourceGenerators.MFFGenerateSourceAttribute\" data-throw-if-not-resolved=\"false\"></xref> is used.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFFileGeneratorTriggerBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFFileGeneratorTriggerBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFFileGeneratorTriggerBase",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFFileGeneratorTriggerBase.yml\" sourcestartlinenumber=\"1\">A base class that <xref href=\"MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger\" data-throw-if-not-resolved=\"false\"></xref> implementations that are based on\nconfiguration files MAY use.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFGeneratorTriggerBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFGeneratorTriggerBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFGeneratorTriggerBase",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFGeneratorTriggerBase.yml\" sourcestartlinenumber=\"1\">The base class that all <xref href=\"MavFiFoundation.SourceGenerators.GeneratorTriggers.IMFFGeneratorTrigger\" data-throw-if-not-resolved=\"false\"></xref> implementations SHOULD implement.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFJsonGeneratorTrigger.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFJsonGeneratorTrigger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFJsonGeneratorTrigger",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFJsonGeneratorTrigger.yml\" sourcestartlinenumber=\"1\">Used to trigger code generation based json files where the file name ends with .CodeGen.json.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFXmlGeneratorTrigger.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFXmlGeneratorTrigger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFXmlGeneratorTrigger",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFXmlGeneratorTrigger.yml\" sourcestartlinenumber=\"1\">Used to trigger code generation based xml files where the file name ends with .CodeGen.xml.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFYamlGeneratorTrigger.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFYamlGeneratorTrigger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFYamlGeneratorTrigger",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.GeneratorTriggers.MFFYamlGeneratorTrigger.yml\" sourcestartlinenumber=\"1\">Used to trigger code generation based yaml files where the file name ends with .CodeGen.yaml\nor .CodeGen.yml.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.GeneratorTriggers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.GeneratorTriggers",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.IMFFGeneratorHelper.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.IMFFGeneratorHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.IMFFGeneratorHelper",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.IMFFGeneratorHelper.yml\" sourcestartlinenumber=\"1\">Defines helper methods for <xref href=\"MavFiFoundation.SourceGenerators.MFFGeneratorBase\" data-throw-if-not-resolved=\"false\"></xref> instances.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin.yml\" sourcestartlinenumber=\"1\">Defines the interface to be used by all generator plugins.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.IMFFGeneratorPluginsProvider",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.INamedTypeSymbolExtensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.INamedTypeSymbolExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.INamedTypeSymbolExtensions",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFCreateGeneratorConstantsAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFCreateGeneratorConstantsAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFCreateGeneratorConstantsAttribute",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFEmbeddedResourceAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFEmbeddedResourceAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFEmbeddedResourceAttribute",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGenerateSourceAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGenerateSourceAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGenerateSourceAttribute",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGenerator.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGenerator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGenerator",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorAnalyzer.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorAnalyzer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGeneratorAnalyzer",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorAnalyzerBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorAnalyzerBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGeneratorAnalyzerBase",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGeneratorBase",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorConstants.Generator.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorConstants.Generator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGeneratorConstants.Generator",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorConstants.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorConstants.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGeneratorConstants",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorHelper.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGeneratorHelper",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorHelperBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorHelperBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGeneratorHelperBase",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorPluginBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorPluginBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGeneratorPluginBase",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.MFFGeneratorPluginBase.yml\" sourcestartlinenumber=\"1\">The base class that all <xref href=\"MavFiFoundation.SourceGenerators.IMFFGeneratorPlugin\" data-throw-if-not-resolved=\"false\"></xref> implementations SHOULD implement.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorPluginsProvider.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.MFFGeneratorPluginsProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.MFFGeneratorPluginsProvider",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFAttributeDataRecord.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFAttributeDataRecord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFAttributeDataRecord",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFAttributePropertyLocationType.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFAttributePropertyLocationType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFAttributePropertyLocationType",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFAttributePropertyRecord.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFAttributePropertyRecord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFAttributePropertyRecord",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFAttributeTypeLocatorInfo.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFAttributeTypeLocatorInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFAttributeTypeLocatorInfo",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFBuilderModel.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFBuilderModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFBuilderModel",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.Models.MFFBuilderModel.yml\" sourcestartlinenumber=\"1\">This is a mutable version of <xref href=\"MavFiFoundation.SourceGenerators.Models.MFFBuilderRecord\" data-throw-if-not-resolved=\"false\"></xref> used to store builder\nconfiguration information.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFBuilderRecord.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFBuilderRecord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFBuilderRecord",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.Models.MFFBuilderRecord.yml\" sourcestartlinenumber=\"1\">Used to store builder configuration information.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFDynamicLinqTypeLocatorInfo.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFDynamicLinqTypeLocatorInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFDynamicLinqTypeLocatorInfo",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoModel.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoModel",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoModel.yml\" sourcestartlinenumber=\"1\">This in a mutable version of <xref href=\"MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord\" data-throw-if-not-resolved=\"false\"></xref> and is used to store generator\nconfiguration information.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord",
+      "Summary": "<p sourcefile=\"api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoRecord.yml\" sourcestartlinenumber=\"1\">Used to store generator configuration information.</p>\n"
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoWithSrcTypesRecord.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoWithSrcTypesRecord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFGeneratorInfoWithSrcTypesRecord",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFPropertySymbolRecord.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFPropertySymbolRecord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFPropertySymbolRecord",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFResourceRecord.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFResourceRecord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFResourceRecord",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFTypeLocatorInfoBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFTypeLocatorInfoBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFTypeLocatorInfoBase",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolRecord.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolRecord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolRecord",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.MFFTypeSymbolSources",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.ModelExtensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.ModelExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models.ModelExtensions",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Models.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Models.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Models",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.ResourceLoaders.IMFFResourceLoader",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.ResourceLoaders.MFFResourceLoader.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.ResourceLoaders.MFFResourceLoader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.ResourceLoaders.MFFResourceLoader",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.ResourceLoaders.ResourceNotFoundException.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.ResourceLoaders.ResourceNotFoundException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.ResourceLoaders.ResourceNotFoundException",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.ResourceLoaders.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.ResourceLoaders.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.ResourceLoaders",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.IMFFSerializer.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.IMFFSerializer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Serializers.IMFFSerializer",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.Json.ObjectToInferredTypesConverter.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.Json.ObjectToInferredTypesConverter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Serializers.Json.ObjectToInferredTypesConverter",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.Json.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.Json.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Serializers.Json",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.MFFXmlSerializer.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.MFFXmlSerializer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Serializers.MFFXmlSerializer",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.MFFYamlSerializer.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.MFFYamlSerializer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Serializers.MFFYamlSerializer",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Serializers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Serializers",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.CSharpIncrementalSourceGeneratorVerifier-1.Test.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.CSharpIncrementalSourceGeneratorVerifier-1.Test.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.CSharpIncrementalSourceGeneratorVerifier<TIncrementalGenerator>.Test",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.CSharpIncrementalSourceGeneratorVerifier-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.CSharpIncrementalSourceGeneratorVerifier-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.CSharpIncrementalSourceGeneratorVerifier<TIncrementalGenerator>",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Helpers.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Helpers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Helpers",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.MFFGeneratorTestData.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.MFFGeneratorTestData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.MFFGeneratorTestData",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.MFFGeneratorTestDataGeneratorBase.TestDataBuilder-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.MFFGeneratorTestDataGeneratorBase.TestDataBuilder-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.MFFGeneratorTestDataGeneratorBase.TestDataBuilder<TData>",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.MFFGeneratorTestDataGeneratorBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.MFFGeneratorTestDataGeneratorBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.MFFGeneratorTestDataGeneratorBase",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.MFFGeneratorXUnitTestData.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.MFFGeneratorXUnitTestData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.MFFGeneratorXUnitTestData",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFAttributeDataRecordBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFAttributeDataRecordBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models.MFFAttributeDataRecordBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFAttributePropertyRecordBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFAttributePropertyRecordBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models.MFFAttributePropertyRecordBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFBuilderRecordBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFBuilderRecordBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models.MFFBuilderRecordBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFGeneratorInfoRecordBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFGeneratorInfoRecordBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models.MFFGeneratorInfoRecordBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFGeneratorInfoWithSrcTypesRecordBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFGeneratorInfoWithSrcTypesRecordBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models.MFFGeneratorInfoWithSrcTypesRecordBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFPropertySymbolRecordBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFPropertySymbolRecordBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models.MFFPropertySymbolRecordBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFResourceRecordBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFResourceRecordBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models.MFFResourceRecordBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFTypeSymbolRecordBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFTypeSymbolRecordBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models.MFFTypeSymbolRecordBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFTypeSymbolSourcesBuilder.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.MFFTypeSymbolSourcesBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models.MFFTypeSymbolSourcesBuilder",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.Models.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.Models",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.TestAssistants.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.TestAssistants.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing.TestAssistants",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.Testing.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.Testing.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.Testing",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.TypeLocators.IMFFTypeLocator",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.MFFAttributeTypeLocator.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.MFFAttributeTypeLocator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.TypeLocators.MFFAttributeTypeLocator",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.MFFDynamicLinqTypeLocator.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.MFFDynamicLinqTypeLocator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.TypeLocators.MFFDynamicLinqTypeLocator",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.MFFIncludedTypeLocator.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.MFFIncludedTypeLocator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.TypeLocators.MFFIncludedTypeLocator",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.MFFLinqTypeLocatorBase-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.MFFLinqTypeLocatorBase-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.TypeLocators.MFFLinqTypeLocatorBase<TLocatorInfo>",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.TypeLocators.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators.TypeLocators",
+      "Summary": null
     },
     {
-      "type": "ApiPage",
+      "type": "ManagedReference",
       "source_relative_path": "api/MavFiFoundation.SourceGenerators.yml",
       "output": {
         ".html": {
           "relative_path": "api/MavFiFoundation.SourceGenerators.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MavFiFoundation.SourceGenerators",
+      "Summary": null
     },
     {
       "type": "Toc",
@@ -965,6 +1317,168 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/builders/liquid-builder.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/builders/liquid-builder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/builders/scriban-builder.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/builders/scriban-builder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/builders/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/builders/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/builders/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/generator-triggers/attribute-generator-trigger.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/generator-triggers/attribute-generator-trigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/generator-triggers/json-generator-trigger.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/generator-triggers/json-generator-trigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/generator-triggers/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/generator-triggers/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/generator-triggers/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/generator-triggers/xml-generator-trigger.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/generator-triggers/xml-generator-trigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/generator-triggers/yaml-generator-trigger.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/generator-triggers/yaml-generator-trigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/type-locators/attribute-type-locator.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/type-locators/attribute-type-locator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/type-locators/dynamic-linq-type-locator.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/type-locators/dynamic-linq-type-locator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/type-locators/included-type-locator.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/type-locators/included-type-locator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/type-locators/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/type-locators/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/type-locators/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Redirection",
       "source_relative_path": "index.md",
       "output": {
         ".html": {

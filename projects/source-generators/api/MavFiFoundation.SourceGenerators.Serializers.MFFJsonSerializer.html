@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class MFFJsonSerializer | MavFi Foundation Source Generators </title>
+      <title>Class MFFJsonSerializer | Source Generators | MavFi Foundation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class MFFJsonSerializer | MavFi Foundation Source Generators ">
+      <meta name="title" content="Class MFFJsonSerializer | Source Generators | MavFi Foundation ">
       
       
       <link rel="icon" href="../../../images/MavFiIcon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/mavfi-foundation/source-generators/new/main/apiSpec/new?filename=MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer.md&amp;value=---%0Auid%3A%20MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -39,13 +39,13 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ApiPage">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="MavFi Foundation Source Generators">
-            MavFi Foundation Source Generators
+            <img id="logo" class="svg" src="../../../images/MavFiLogo.png" alt="Source Generators">
+            Source Generators
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -84,114 +84,217 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 class='section api' data-uid='MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer' data-commentid='T:MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer' id='MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer'>Class MFFJsonSerializer    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators.Shared/Serializers/MFFJsonSerializer.cs#L6'><i class='bi bi-code-slash'></i></a></h1>
- <div class="facts text-secondary">
-<dl><dt>Namespace</dt><dd><a href='MavFiFoundation.SourceGenerators.Serializers.html'>MavFiFoundation.SourceGenerators.Serializers</a></dd></dl><dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.Shared.dll</dd></dl>
-</div><pre><code class='lang-csharp'>public class MFFJsonSerializer : MFFSerializerBase, IMFFSerializer</code></pre><h4 class='section'>Inheritance</h4><dl class="typelist inheritance"><dd>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object'>object</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html'>MFFSerializerBase</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.html'>MFFJsonSerializer</a>
-</div>
-
-</dd></dl><h4 class='section'>Implements</h4><dl class="typelist"><dd>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.IMFFSerializer.html'>IMFFSerializer</a>
-</div>
-
-</dd></dl><h4 class='section'>Inherited Members</h4><dl class="typelist"><dd>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_Serializers'>MFFSerializerBase.Serializers</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_Deserializers'>MFFSerializerBase.Deserializers</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_RegisterSerializerFor__1_System_Func_System_Object_System_String__'>MFFSerializerBase.RegisterSerializerFor&lt;T&gt;(Func&lt;object, string&gt;)</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_RegisterSerializerFor_System_Func_System_Object_System_String__System_Type_'>MFFSerializerBase.RegisterSerializerFor(Func&lt;object, string&gt;, Type)</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_RegisterDeserializerFor__1_System_Func_System_String_System_Object__'>MFFSerializerBase.RegisterDeserializerFor&lt;T&gt;(Func&lt;string, object?&gt;)</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_RegisterDeserializerFor_System_Func_System_String_System_Object__System_Type_'>MFFSerializerBase.RegisterDeserializerFor(Func&lt;string, object?&gt;, Type)</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_SerializeObject_System_Object_'>MFFSerializerBase.SerializeObject(object)</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_DeserializeObject_System_String_System_Type_'>MFFSerializerBase.DeserializeObject(string, Type)</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_DeserializeObject__1_System_String_'>MFFSerializerBase.DeserializeObject&lt;T&gt;(string)</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_AbsSerializeObject_System_Object_'>MFFSerializerBase.AbsSerializeObject(object)</a>
-</div>
-<div>
-<a href='MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_AbsDeserializeObject_System_String_System_Type_'>MFFSerializerBase.AbsDeserializeObject(string, Type)</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)'>object.Equals(object)</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)'>object.Equals(object, object)</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.gethashcode'>object.GetHashCode()</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.gettype'>object.GetType()</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone'>object.MemberwiseClone()</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.referenceequals'>object.ReferenceEquals(object, object)</a>
-</div>
-<div>
-<a href='https://learn.microsoft.com/dotnet/api/system.object.tostring'>object.ToString()</a>
-</div>
-
-</dd></dl><h2 class='section'>Constructors</h2><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.#ctor' data-commentid='M:MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.#ctor' id='MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer__ctor'>MFFJsonSerializer()    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators.Shared/Serializers/MFFJsonSerializer.cs#L9'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>public MFFJsonSerializer()</code></pre><h2 class='section'>Methods</h2><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.AbsDeserializeObject(System.String,System.Type)' data-commentid='M:MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.AbsDeserializeObject(System.String,System.Type)' id='MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer_AbsDeserializeObject_System_String_System_Type_'>AbsDeserializeObject(string, Type)    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators.Shared/Serializers/MFFJsonSerializer.cs#L21'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>protected override object? AbsDeserializeObject(string value, Type type)</code></pre><h4 class='section'>Parameters</h4><dl class='parameters'><dt><code>value</code> <a href='https://learn.microsoft.com/dotnet/api/system.string'>string</a>  </dt>
-<dd>
+        <article data-uid="MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer">
 
 
 
-</dd><dt><code>type</code> <a href='https://learn.microsoft.com/dotnet/api/system.type'>Type</a>  </dt>
-<dd>
+  <h1 id="MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer" data-uid="MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer" class="text-break">
+Class MFFJsonSerializer  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators.Shared/Serializers/MFFJsonSerializer.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MavFiFoundation.html">MavFiFoundation</a>.<a class="xref" href="MavFiFoundation.SourceGenerators.html">SourceGenerators</a>.<a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.html">Serializers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MavFiFoundation.SourceGenerators.Shared.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MFFJsonSerializer : MFFSerializerBase, IMFFSerializer</code></pre>
+  </div>
 
 
 
-</dd></dl><h4 class='section'>Returns</h4><dl class='parameters'><dt> <a href='https://learn.microsoft.com/dotnet/api/system.object'>object</a>?  </dt>
-<dd>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html">MFFSerializerBase</a></div>
+      <div><span class="xref">MFFJsonSerializer</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.IMFFSerializer.html">IMFFSerializer</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_Serializers">MFFSerializerBase.Serializers</a>
+    </div>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_Deserializers">MFFSerializerBase.Deserializers</a>
+    </div>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_RegisterSerializerFor__1_System_Func_System_Object_System_String__">MFFSerializerBase.RegisterSerializerFor&lt;T&gt;(Func&lt;object, string&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_RegisterSerializerFor_System_Func_System_Object_System_String__System_Type_">MFFSerializerBase.RegisterSerializerFor(Func&lt;object, string&gt;, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_RegisterDeserializerFor__1_System_Func_System_String_System_Object__">MFFSerializerBase.RegisterDeserializerFor&lt;T&gt;(Func&lt;string, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_RegisterDeserializerFor_System_Func_System_String_System_Object__System_Type_">MFFSerializerBase.RegisterDeserializerFor(Func&lt;string, object&gt;, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_SerializeObject_System_Object_">MFFSerializerBase.SerializeObject(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_DeserializeObject_System_String_System_Type_">MFFSerializerBase.DeserializeObject(string, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="MavFiFoundation.SourceGenerators.Serializers.MFFSerializerBase.html#MavFiFoundation_SourceGenerators_Serializers_MFFSerializerBase_DeserializeObject__1_System_String_">MFFSerializerBase.DeserializeObject&lt;T&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
 
 
 
-</dd></dl><h3 class='section api' data-uid='MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.AbsSerializeObject(System.Object)' data-commentid='M:MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.AbsSerializeObject(System.Object)' id='MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer_AbsSerializeObject_System_Object_'>AbsSerializeObject(object)    <a class='header-action link-secondary' title='View source' href='https://github.com/mavfi-foundation/mavfifoundation-generators/blob/users/kevinhaubrick/add-documentation/src/MavFiFoundation.SourceGenerators.Shared/Serializers/MFFJsonSerializer.cs#L26'><i class='bi bi-code-slash'></i></a></h3>
- <pre><code class='lang-csharp'>protected override string AbsSerializeObject(object value)</code></pre><h4 class='section'>Parameters</h4><dl class='parameters'><dt><code>value</code> <a href='https://learn.microsoft.com/dotnet/api/system.object'>object</a>  </dt>
-<dd>
 
 
 
-</dd></dl><h4 class='section'>Returns</h4><dl class='parameters'><dt> <a href='https://learn.microsoft.com/dotnet/api/system.string'>string</a>  </dt>
-<dd>
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer__ctor_" data-uid="MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.#ctor*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer__ctor" data-uid="MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.#ctor">
+  MFFJsonSerializer()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators.Shared/Serializers/MFFJsonSerializer.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MFFJsonSerializer()</code></pre>
+  </div>
 
 
 
-</dd></dl>
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer_AbsDeserializeObject_" data-uid="MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.AbsDeserializeObject*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer_AbsDeserializeObject_System_String_System_Type_" data-uid="MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.AbsDeserializeObject(System.String,System.Type)">
+  AbsDeserializeObject(string, Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators.Shared/Serializers/MFFJsonSerializer.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override object? AbsDeserializeObject(string value, Type type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer_AbsSerializeObject_" data-uid="MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.AbsSerializeObject*"></a>
+
+  <h3 id="MavFiFoundation_SourceGenerators_Serializers_MFFJsonSerializer_AbsSerializeObject_System_Object_" data-uid="MavFiFoundation.SourceGenerators.Serializers.MFFJsonSerializer.AbsSerializeObject(System.Object)">
+  AbsSerializeObject(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators.Shared/Serializers/MFFJsonSerializer.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string AbsSerializeObject(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/mavfi-foundation/source-generators/blob/main/src/MavFiFoundation.SourceGenerators.Shared/Serializers/MFFJsonSerializer.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 
