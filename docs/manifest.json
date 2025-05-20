@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/home/kevin/source/repos/github/mavfi-foundation/source-generators/docs/docs-site",
+  "source_base_path": "/home/kevin/source/repos/github/mavfi-foundation/docs-site",
   "xrefmap": "xrefmap.yml",
   "files": [
     {

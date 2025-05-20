@@ -31,6 +31,10 @@
       "_appFaviconPath": "images/MavFiIcon.png",
       "_appLogoPath": "images/MavFiLogo.png",
       "_appFooter": "@ 2025 MavFi Foundation",
+      "_gitContribute": {
+        "branch": "main"
+      },      
+      "_disableContribution": true,
       "_enableSearch": false,
       "pdf": false
     }
